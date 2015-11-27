@@ -1,0 +1,14 @@
+table {
+	text-align: center;
+	background-color: white;
+	border-spacing: 3px;
+	border-color: black;
+	font-family: verdana;
+	margin: 10px;
+}
+td {
+	background-image: url("task5.png");
+}
+#col {
+	width: 10px;
+}
