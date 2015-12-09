@@ -1,0 +1,36 @@
+.rect {
+	border-width: 10px 10px;
+	border-style: solid;
+	border-color: red;
+	margin: 10px auto;
+	border-width: 50px;
+	border-height: 50px;
+}
+.rect { 
+	border-image-source: url("http://mamkamu.blog.bg/photos/49518/original/Patka.jpg");
+	border-image-repeat: repeat;
+	border-image-width: 55px;
+	padding: 50px;
+}	
+.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	border-style: solid;
+	border-color: black;
+	margin: 10px auto;
+}
+.container {
+	border: 1px solid black;
+	color: rgb(1,50,203);
+	background-color: #0196CB;
+	border-radius: 20px;
+}
+#header {
+	border-color: #444;
+}
+p {
+	font-family: Verdana;
+	line-height: 1.5em;
+	color: #fff;
+}
