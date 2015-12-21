@@ -5,15 +5,41 @@
 </head>
 <body>
 <script type="text/javascript">
+
+	function main (param){
+		var list = '<ul>';
+		var listEnd = '</ul>';
+		document.body.innerHTML = list + listEnd;
+	}
+
+	function main (param){
+		var list = '<ul>';
+		var listEnd = '</ul>';
+		var listItems = [1,2].concat('');
+		var body = list + listItems + listEnd;
+		document.body.innerHTML = body;
+	}	
+
+
+
+	var obj = {};
+
+	function main (param){
+		this.newName = 'ivan'
+		consloe.log(this.newName)
+	}
+
 	var output = '';
-var input = ['soft', 'intellect', 'academy', 2015];
+	var input = ['soft', 'intellect', 'academy', 2015];
 
-for(var i = 0; i<input.length; i + 1){
-	console.log('dobavqm', input[i]);
-	output = output + ' ' + input[i];
-};
+	for(var i = 0; i<input.length; i + 1){
+		console.log('dobavqm', input[i]);
+		output = output + ' ' + input[i];
+	};
 
-console.log('output')
+	console.log('nai nakraq')
+	console.log('output')
+	return output;
 </script>
 </body>
 </html>
