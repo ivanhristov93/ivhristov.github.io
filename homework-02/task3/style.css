@@ -1,0 +1,25 @@
+h1 {
+	color:blue;
+}
+.head {
+	border: 2px solid blue;
+	background-color: #d9d9d9;
+	font-family: "Verdana";
+	font-size: 14px;
+	line-height: 1.5em;
+	text-align: center;
+}
+.par {
+	border: 2px solid blue;
+	background-color: #ff3300;
+	font-family: "Verdana";
+	font-size: 14px;
+}
+.txt p {
+	color: #66CCFF;
+}
+.txt {
+	font-family: "Verdana";
+	font-size: 14px;
+	text-align: left;
+}
